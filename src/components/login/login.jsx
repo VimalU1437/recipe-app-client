@@ -21,7 +21,7 @@ export default function Login(){
             url:url,
             data:data
         }).then((res)=>{
-            // console.log(res);
+            console.log(res);
             if(res.data.status === "Success"){
                 localStorage.setItem("token",res.data.token);
                 

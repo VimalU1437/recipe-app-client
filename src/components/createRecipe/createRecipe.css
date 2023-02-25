@@ -1,0 +1,16 @@
+.create-container{
+    width: 75%;
+    margin: 40px auto;
+    text-align: center;
+    color: white;
+    background-color: black;
+    min-height: 500px;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+.btn-crt{
+    margin: 20px;
+}
+.create-container>h2{
+    padding: 30px;
+}

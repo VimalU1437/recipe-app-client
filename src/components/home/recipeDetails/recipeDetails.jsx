@@ -9,15 +9,16 @@ export default function RecipeDetails({recipe}){
         <img className="img" src={recipe.image.url} alt="food" />
         <div className="container-btn">
 
-        <div>
+        <div className="btn-div-rec">
             <button
-            
+            style={inge ? {background:"black",color:"white"}:{background:"white",color:"black"}}
             onClick={(e)=>{
                 setIng(true);
             }}>
             Ingredients
             </button>
             <button
+            style={!inge ? {background:"black",color:"white"}:{background:"white",color:"black"}}
              onClick={(e)=>{
                  setIng(false);
                 }}>

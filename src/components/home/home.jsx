@@ -44,7 +44,7 @@ export default function Home(){
             <GiKnifeFork/>
             <h1>Recipe App</h1>
         </div>
-        <div>
+        <div className="user">
             <AiOutlineUser/>
             <button onClick={()=>{
                localStorage.removeItem("token");

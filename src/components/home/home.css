@@ -2,9 +2,12 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    align-items: center;
 
 }
-
+.user>*{
+    margin: 0 20px;
+}
 .logo{
     display: flex;
     align-items: center;
