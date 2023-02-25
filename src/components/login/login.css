@@ -1,0 +1,36 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.login-container{
+    background-color: rgb(130, 130, 255);
+    width: 40%;
+    min-height: 400px;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 30px auto;
+    box-shadow: 2px 2px 8px;
+}
+
+.login-container>h2{
+    text-align: center;
+    padding: 20px;
+}
+
+.log-btn{
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    width: 80px;
+    height: 30px;
+}
+
+.input-div{
+    font-size: 1.2em;
+}
+
+.input-div>input{
+    height: 30px;
+    width: 100%;
+    padding-left: 10px;
+}

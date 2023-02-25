@@ -1,0 +1,41 @@
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.image-container>div{
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px;
+}
+
+.image-container>div>img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+
+}
+
+.image-container>div>p{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.addNew{
+    text-align: center;
+    width: 10%;
+    margin: 40px auto;
+    font-size: 1.3em;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(157, 157, 255);
+}
+
+.search{
+    width: 60%;
+    margin: 40px auto;
+}
+.search>input{
+    width: 100%;
+    height: 30px;
+}
